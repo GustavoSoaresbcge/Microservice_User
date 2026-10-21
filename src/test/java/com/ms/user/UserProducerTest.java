@@ -21,7 +21,7 @@ import com.ms.user.models.UserModel;
 import com.ms.user.producers.UserProducer;
 
 @ExtendWith(MockitoExtension.class)
-class UserApplicationTests {
+class UserProducerTest {
 
     @Mock
     private RabbitTemplate rabbitTemplate;
